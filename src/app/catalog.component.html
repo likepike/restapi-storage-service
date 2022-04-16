@@ -1,0 +1,7 @@
+<div>
+  <h3>CatalogComponent</h3>
+  <h4>Источник: {{ apiUrl }}</h4>
+  <ul>
+    <li *ngFor="let entry of entries$ | async">{{ entry.title }}</li>
+  </ul>
+</div>
